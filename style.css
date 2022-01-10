@@ -120,7 +120,7 @@ body, html{
 }
 
 .hero-image-four{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1512682479844-0fa51f42b4a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJsYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1631629572038-c5419d34cb09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHRheGlkZXJteXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
 }
 
 .hero-image-five{
@@ -213,7 +213,7 @@ section {
 	padding-top: 1rem;
 	justify-content: center;
 	justify-content: space-around;
-	align-items: stretch;
+	overflow: hidden;
 }
 
 .box{
@@ -226,4 +226,22 @@ section {
 	background-size: cover;
 	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 	padding:1rem;
+}
+
+
+#mc_embed_signup{
+	background:#fff; 
+	font-family: 'Libre Baskerville', serif;
+	padding: 1rem;
+	overflow: hidden;
+	position: absolute;
+	
+}
+
+#mc_embed_signup h2{
+	text-align: center;
+}
+
+footer{
+	height:100px;
 }
